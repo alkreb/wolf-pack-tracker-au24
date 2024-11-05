@@ -1,0 +1,118 @@
+{
+    "wolves": [
+      {
+        "wolf_id": "W001",
+        "name": "Alpha",
+        "location": { "latitude": 45.123, "longitude": -112.456 },
+        "pack_id": "P001",
+        "migration_history": [
+          { "date": "2024-01-15", "latitude": 45.123, "longitude": -112.456 },
+          { "date": "2024-01-20", "latitude": 46.789, "longitude": -113.987 }
+        ],
+        "health_status": "healthy"
+      },
+      {
+        "wolf_id": "W002",
+        "name": "Beta",
+        "location": { "latitude": 46.123, "longitude": -111.456 },
+        "pack_id": "P001",
+        "migration_history": [
+          { "date": "2024-01-15", "latitude": 46.123, "longitude": -111.456 },
+          { "date": "2024-02-01", "latitude": 47.789, "longitude": -114.987 }
+        ],
+        "health_status": "injured"
+      }
+    ],
+    "packs": [
+      {
+        "pack_id": "P001",
+        "pack_name": "Northern Wolves",
+        "members": ["W001", "W002"],
+        "territory": "Northern Forest",
+        "migration_pattern": [
+          { "date": "2024-01-01", "latitude": 45.000, "longitude": -112.000 },
+          { "date": "2024-02-01", "latitude": 47.000, "longitude": -114.000 }
+        ]
+      },
+      {
+        "pack_id": "P002",
+        "pack_name": "Eastern Wolves",
+        "members": ["W003", "W004"],
+        "territory": "Eastern Mountains",
+        "migration_pattern": [
+          { "date": "2024-03-01", "latitude": 48.000, "longitude": -115.000 },
+          { "date": "2024-04-01", "latitude": 49.000, "longitude": -116.000 }
+        ]
+      }
+    ],
+    "habitats": [
+      {
+        "habitat_id": "H001",
+        "location": "Northern Forest",
+        "climate": "temperate",
+        "prey_population": ["deer", "rabbits"]
+      },
+      {
+        "habitat_id": "H002",
+        "location": "Eastern Mountains",
+        "climate": "cold",
+        "prey_population": ["mountain goats", "hares"]
+      }
+    ],
+    "migration_events": [
+      {
+        "event_id": "ME001",
+        "event_name": "Winter Migration",
+        "start_date": "2024-01-01",
+        "end_date": "2024-02-28",
+        "packs_involved": ["P001"],
+        "wolves_involved": ["W001", "W002"],
+        "location_path": [
+          { "date": "2024-01-05", "latitude": 45.123, "longitude": -112.456 },
+          { "date": "2024-01-20", "latitude": 46.789, "longitude": -113.987 }
+        ]
+      },
+      {
+        "event_id": "ME002",
+        "event_name": "Spring Migration",
+        "start_date": "2024-03-01",
+        "end_date": "2024-04-30",
+        "packs_involved": ["P002"],
+        "wolves_involved": ["W003", "W004"],
+        "location_path": [
+          { "date": "2024-03-10", "latitude": 48.123, "longitude": -115.456 },
+          { "date": "2024-04-01", "latitude": 49.789, "longitude": -116.987 }
+        ]
+      }
+    ],
+    "prey": [
+      {
+        "prey_id": "PR001",
+        "species": "deer",
+        "habitat_id": "H001",
+        "population_estimate": 200
+      },
+      {
+        "prey_id": "PR002",
+        "species": "mountain goats",
+        "habitat_id": "H002",
+        "population_estimate": 150
+      }
+    ],
+    "health_status": [
+      {
+        "record_id": "HS001",
+        "wolf_id": "W001",
+        "status": "healthy",
+        "last_checkup": "2024-01-15"
+      },
+      {
+        "record_id": "HS002",
+        "wolf_id": "W002",
+        "status": "injured",
+        "last_checkup": "2024-01-20",
+        "notes": "Leg injury observed"
+      }
+    ]
+  }
+  
