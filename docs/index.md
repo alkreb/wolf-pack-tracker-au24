@@ -7,32 +7,34 @@ layout: page
 This is a mock API to simulate the REST interface of an
 imaginary service.
 
-The To-Do service provides .
+The Wolf Pack Tracer API provides information about wolves their habitat, migration patterns and health.
 
-## Quickstart
+## Getting started
+
+The tutorial explains how to set up your system to use the Wolf Pack Tracer API.
+
+* [Wolf Pack Tracker API setup](getting-started.md).
 
 
-## Tutorials
+## Tutorial
 
-Learn how to do common tasks with in the Wolf Pack Tracker service.
+Learn how to locate and wolf and determine the wolf's health with in the Wolf Pack Tracker service. 
 
-First, do this tutorial to set up your development system for these tutorials. You only have to do this one time per development system.
+* [Wolf Pack Tracker API tutorial](tutorials/tutorials.md).
 
-* [Before you start a tutorial](before-you-start-a-tutorial.md)
+## Reference
 
-After your system is ready, these tutorials show you how to perform common tasks.
+The Wolf Pack Tracker API provides the following endpoints for monitoring wolf packs:
 
-*
+* [Wolves resource](api/wolves.md)
+    * [Get all wolves](api/wolves-get-all.md)
+* [Packs resource](api/packs.md)
+    * [Get all packs](api/packs-get-all.md)
+* [Habitats resource](api/habitats.md)
+* [Migration Events resource](api/migration-events.md)
+* [Prey resource](api/prey.md)
 
-## API reference docs
-
-Detailed descriptions of the service's resources.
-
-The API reference docs refer to a `{base_url}` when they
-refer to the URL of a resource. The `{base_url}` value depends
-on the installation of the service.
-
+**Note:** The API reference docs refer to a `{base_url}` the value depends
+on the installation of the service. 
 When run locally for testing, the `{base_url}` is
-generally `http://localhost:3000`.
-
-* 
+typically  `http://localhost:3000`.

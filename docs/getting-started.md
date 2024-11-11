@@ -2,17 +2,17 @@
 layout: page
 ---
 
-# Before you start a tutorial
+# Getting started tutorial
 
 These are the steps you must do before you can run
-the tutorials for the **Wolf Pack Tracker**.
+the tutorial for the **Wolf Pack Tracker**.
 
 Expect this preparation to take about 20 minutes to complete.
 
 ## Preparing for the tutorials
 
-To complete the tutorials in this section, you need the following.
-You might want to open the links in separate brower tabs before you start installing the software.
+To complete the tutorial, you need the following.
+You might want to open the links in separate browser tabs before you start installing the software.
 
 * A [GitHub account](https://github.com)
 * A development system (PC, Mac, or Linux) running a current or
@@ -20,7 +20,7 @@ long-term support (LTS version of the operating system).
 * The following software on your development system:
     * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
     * [GitHub Desktop](https://desktop.github.com) (optional)
-    * A fork of the [To-Do-Service repo](https://github.com/UWC2-APIDOC/to-do-service-au24)
+    * A fork of the [Wolf Pack Tracker repo](hhttps://github.com/alkreb/wolf-pack-tracker-au24)
     * A current/LTS version of `node.js`
     * A current version of [json-server](https://www.npmjs.com/package/json-server)
     * A current copy of the database file. You can get this by syncing your fork.
@@ -40,7 +40,7 @@ To test your development system:.
     cd wolf-pack-tracker-au24
     git checkout -b tutorial-test
     cd api
-    json-server -w wolf-pack-tracker-au24.json
+    json-server -w wolf-pack-tracker-db.json
     ```
 
     If your development system is installed correctly, you should see
@@ -49,19 +49,56 @@ To test your development system:.
 2. Make a test call to the service.
 
     ```shell
-    curl http://localhost:3000/
+    curl 'http://localhost:3000/wolves'
     ```
 
-3. If the service is running correctly, you should see a list 
+3. If the service is running correctly, you should see a list of wolves.
 
     ```js
-    [
+     [
+            "wolf_id": "W001",
+        "name": "Alpha",
+        "location": {
+        "latitude": 45.123,
+        "longitude": -112.456
+        },
+        "pack_id": "P001",
+        "migration_history": [
         {
-            "
+            "date": "2024-01-15",
+            "latitude": 45.123,
+            "longitude": -112.456
         },
         {
-            
-        },
+            "date": "2024-01-20",
+            "latitude": 46.789,
+            "longitude": -113.987
+        }
+        ],
+        "health_status": "healthy"
+    },
+        {
+            "wolf_id": "W002",
+            "name": "Beta",
+            "location": {
+            "latitude": 46.123,
+            "longitude": -111.456
+            },
+            "pack_id": "P001",
+            "migration_history": [
+            {
+                "date": "2024-01-15",
+                "latitude": 46.123,
+                "longitude": -111.456
+            },
+            {
+                "date": "2024-02-01",
+                "latitude": 47.789,
+                "longitude": -114.987
+            }
+            ],
+            "health_status": "injured"
+            }
         ...
     ```
 
@@ -74,5 +111,18 @@ Some common situations that cause errors include:
 3. A required software component didn't install correctly.
 4. A required software component isn't up to date.
 
-If you see the list of users from the service, you're ready to do
-the [Tutorials](tutorials.md).
+If you see the list of wolves from the service, you're ready for the
+the [tutorial](tutorials/tutorials.md).
+
+## More information
+
+* [Wolf Pack Tracker API overview](index.md)
+* [Wolf Pack Tracker API tutorial](tutorials/tutorials.md)
+* [Wolves resource](api/wolves.md)
+    * [Get all wolves](api/wolves-get-all.md)
+* [Packs resource](api/packs.md)
+    * [Get all packs](api/packs-get-all.md)
+* [Habitats resource](api/habitats.md)
+* [Migration Events resource](api/migration-events.md)
+* [Prey resource](api/prey.md)
+
