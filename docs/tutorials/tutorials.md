@@ -43,7 +43,7 @@ curl --location 'http://localhost:3000/wolves' \
       }
     ],
     "health_status": "healthy"
-  },
+  }'
 ```
 
 ## Step 3: Verify the response

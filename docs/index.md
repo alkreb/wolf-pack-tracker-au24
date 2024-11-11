@@ -7,7 +7,9 @@ layout: page
 This is a mock API to simulate the REST interface of an
 imaginary service.
 
-The Wolf Pack Tracer API provides information about wolves their habitat, migration patterns and health.
+The Wolf Pack Tracer API provides information about wolves and their habitat, migration patterns and health.
+
+You can also track information about migrations, habitat and prey. 
 
 ## Getting started
 
