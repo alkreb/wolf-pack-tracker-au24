@@ -52,21 +52,16 @@ The response is returned.  Make note of the user's id; it may be different in yo
 
 ```
 {
- "last_name": "Smith",
- "first_name": "Apple",
- "email": "apple.smith@example.com",
- "id": 8
+ 
 }
 ```
 
-## Step 3: Retrieve the user
-To validate the user was added, run the following command. Change the id to match the one returned for your user.
+## Step 3: Retrieve the wolf
 
 ```
-curl --location --request GET 'http://localhost:3000/users/8'
+
 ```
 
-Now that you have added a user to the To-do service, you can [add a new task for the user](../tutorials/add-a-new-task.md).
 
 
 ## More information
