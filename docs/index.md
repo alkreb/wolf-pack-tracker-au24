@@ -4,12 +4,12 @@ layout: page
 
 # Wolf Pack Tracker service API
 
-This is a mock API to simulate the REST interface of an
-imaginary service.
+_This is a mock API to simulate the REST interface of an
+imaginary service._
 
 The Wolf Pack Tracer API provides information about wolves and their habitat, migration patterns and health.
 
-You can also track information about migrations, habitat and prey. 
+Scientists, conservationist and naturalists can also track information about wolf migrations, habitat and prey. 
 
 ## Getting started
 
@@ -20,7 +20,7 @@ The tutorial explains how to set up your system to use the Wolf Pack Tracer API.
 
 ## Tutorial
 
-Learn how to locate and wolf and determine the wolf's health with in the Wolf Pack Tracker service. 
+Learn how to add a wolf to the Wolf Pack Tracker service. 
 
 * [Wolf Pack Tracker API tutorial](tutorials/tutorials.md).
 
