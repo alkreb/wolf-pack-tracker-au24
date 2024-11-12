@@ -66,11 +66,12 @@ The response is returned.  Make note of the user's id; it may be different in yo
 
 ## More information
 
-* [Wolf Pack Tracker API overview](index.md)
-* [Wolves resource](api/wolves.md)
-    * [Get all wolves](api/wolves-get-all.md)
-* [Packs resource](api/packs.md)
-    * [Get all packs](api/packs-get-all.md)
-* [Habitats resource](api/habitats.md)
-* [Migration Events resource](api/migration-events.md)
-* [Prey resource](api/prey.md)
+* [Wolf Pack Tracker API overview](../index.md)
+* [Wolf Pack Tracker API setup](../getting-started.md)
+* [Wolves resource](../api/wolves.md)
+    * [Get all wolves](../api/wolves-get-all.md)
+* [Packs resource](../api/packs.md)
+    * [Get all packs](../api/packs-get-all.md)
+* [Habitats resource](../api/habitats.md)
+* [Migration Events resource](../api/migration-events.md)
+* [Prey resource](../api/prey.md)

@@ -43,6 +43,7 @@ Sample `packs` resource
 
 | Property name | Type | Description |
 | ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
 |`pack_id` | number | The ID of the pack|
 |`pack_name` | string | The wolf's name|
 |`members` | array | Wolves in the pack|
@@ -51,12 +52,12 @@ Sample `packs` resource
 
 ## More information
 
-* [Wolf Pack Tracker API overview](index.md)
-* [Wolf Pack Tracker API setup](getting-started.md)
-* [Wolf Pack Tracker API tutorial](tutorials/tutorials.md)
-* [Wolves resource](api/wolves.md)
-    * [Get all wolves](api/wolves-get-all.md)
-* [Get all packs](api/packs-get-all.md)
-* [Habitats resource](api/habitats.md)
-* [Migration Events resource](api/migration-events.md)
-* [Prey resource](api/prey.md)
+* [Wolf Pack Tracker API overview](../index.md)
+* [Wolf Pack Tracker API setup](../getting-started.md)
+* [Wolf Pack Tracker API tutorial](../_config.ymltutorials/tutorials.md)
+* [Wolves resource](wolves.md)
+    * [Get all wolves](wolves-get-all.md)
+* [Get all packs](packs-get-all.md)
+* [Habitats resource](/habitats.md)
+* [Migration Events resource](migration-events.md)
+* [Prey resource](prey.md)
