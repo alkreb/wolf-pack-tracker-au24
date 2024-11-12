@@ -72,7 +72,6 @@ The response is returned.  Make note of the id; it may be different in your resp
     "health_status": "injured",
     "id": 3
 }
-}
 ```
 
 ## Step 3: Retrieve the wolf

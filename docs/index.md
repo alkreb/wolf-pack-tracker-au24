@@ -26,7 +26,7 @@ Learn how to add a wolf to the Wolf Pack Tracker service.
 
 ## Reference
 
-The Wolf Pack Tracker API provides the following endpoints for monitoring wolf packs:
+The Wolf Pack Tracker API provides the following resources for monitoring wolf packs:
 
 * [Wolves resource](api/wolves.md)
     * [Get all wolves](api/wolves-get-all.md)
