@@ -63,12 +63,12 @@ None
 
 ## More information
 
-* [Wolf Pack Tracker API overview](index.md)
-* [Wolf Pack Tracker API setup](getting-started.md)
-* [Wolf Pack Tracker API tutorial](tutorials/tutorials.md)
-* [Get all wolves](api/wolves-get-all.md)
-    * [Get all wolves](api/wolves-get-all.md)
-* [Packs resource](api/packs.md)
-* [Habitats resource](api/habitats.md)
-* [Migration Events resource](api/migration-events.md)
-* [Prey resource](api/prey.md)
+* [Wolf Pack Tracker API overview](../index.md)
+* [Wolf Pack Tracker API setup](../getting-started.md)
+* [Wolf Pack Tracker API tutorial](../tutorials/tutorials.md)
+* [Get all wolves](wolves-get-all.md)
+    * [Get all wolves](wolves-get-all.md)
+* [Packs resource](packs.md)
+* [Habitats resource](habitats.md)
+* [Migration Events resource](migration-events.md)
+* [Prey resource](prey.md)

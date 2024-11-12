@@ -20,7 +20,7 @@ long-term support (LTS version of the operating system).
 * The following software on your development system:
     * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
     * [GitHub Desktop](https://desktop.github.com) (optional)
-    * A fork of the [Wolf Pack Tracker repo](hhttps://github.com/alkreb/wolf-pack-tracker-au24)
+    * A fork of the [Wolf Pack Tracker repo](https://github.com/alkreb/wolf-pack-tracker-au24)
     * A current/LTS version of `node.js`
     * A current version of [json-server](https://www.npmjs.com/package/json-server)
     * A current copy of the database file. You can get this by syncing your fork.
