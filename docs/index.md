@@ -7,9 +7,7 @@ layout: page
 _This is a mock API to simulate the REST interface of an
 imaginary service._
 
-The Wolf Pack Tracer API provides information about wolves and their habitat, migration patterns and health.
-
-Scientists, conservationist and naturalists can also track information about wolf migrations, habitat and prey. 
+Scientists, conservationist, and naturalists can track information about wolves and wolf packs, including their habitat, migration patterns, health and prey.
 
 ## Getting started
 
