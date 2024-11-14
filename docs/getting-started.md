@@ -2,16 +2,16 @@
 layout: page
 ---
 
-# Getting started tutorial
+# Getting started
 
 These are the steps you must do before you can run
 the tutorial for the **Wolf Pack Tracker**.
 
 Expect this preparation to take about 20 minutes to complete.
 
-## Preparing for the tutorials
+## Preparing to use the Wolf Pack Tracker API
 
-To complete the tutorial, you need the following.
+To use the API, you need the following.
 You might want to open the links in separate browser tabs before you start installing the software.
 
 * A [GitHub account](https://github.com)
@@ -102,7 +102,7 @@ To test your development system:.
         ...
     ```
 
-If you don't see the list of , or receive an error in any step
+If you don't see the list of wolves, or receive an error in any step
 of the procedure, investigate and correct the error before continuing.
 Some common situations that cause errors include:
 
