@@ -17,7 +17,7 @@ Wolf migration event information.
 
 Sample `migration_events` resource
 
-```js
+```JSON
 
 {
         "event_id": "ME001",
@@ -53,8 +53,8 @@ Sample `migration_events` resource
 | `event_name` | string | The name of the event
 | `start_date` | string | Date the event starts|
 | `end_date` | string | Date the event ends|
-| `packs_involved` | array | ids of the packs involved in the event.|
-| `wolves_involved` | array| ids of the wolves involved in the event |
+| `packs_involved` | array | IDs of the packs involved in the event.|
+| `wolves_involved` | array| IDs of the wolves involved in the event |
 | `location_path` | array| Date, latitude and longitude of the migration event|
 
 

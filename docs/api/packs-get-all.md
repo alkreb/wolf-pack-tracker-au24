@@ -27,7 +27,7 @@ None
 
 ## Return body
 
-```js
+```JSON
 [
     {
         "pack_id": "P001",

@@ -47,7 +47,7 @@ curl --location 'http://localhost:3000/wolves' \
 
 The response is returned.  Make note of the id; it may be different in your response.
 
-```shell
+```JSON
 {
  {
     "wolf_id": "W003",
@@ -90,6 +90,10 @@ curl --location --request GET 'http://localhost:3000/wolves/3'
 * [Wolf Pack Tracker API setup](../getting-started.md)
 * [Wolves resource](../api/wolves.md)
     * [Get all wolves](../api/wolves-get-all.md)
+    * [Get a single wolf](../api/wolves-get-single.md)
+    * [Add a wolf](../api/wolves-post.md)
+    * [Update a wolf](../api/wolves-put.md)
+    * [Delete a wolf](../api/wolves-delete.md)
 * [Packs resource](../api/packs.md)
     * [Get all packs](../api/packs-get-all.md)
 * [Habitats resource](../api/habitats.md)

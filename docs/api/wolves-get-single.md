@@ -4,13 +4,13 @@ layout: page
 
 # Get all wolves
 
-Get information for all wolves tracked by the service.
+Get information for a wolf tracked by the service.
 
 ## URL
 
 ```shell
 
-{base_url}/wolves
+{base_url}/wolves?wolf_id={wolf_id}
 ```
 
 ## Params
@@ -50,29 +50,7 @@ None
             }
         ],
         "health_status": "healthy"
-    },
-    {
-        "wolf_id": "W002",
-        "name": "Beta",
-        "location": {
-            "latitude": 46.123,
-            "longitude": -111.456
-        },
-        "pack_id": "P001",
-        "migration_history": [
-            {
-                "date": "2024-01-15",
-                "latitude": 46.123,
-                "longitude": -111.456
-            },
-            {
-                "date": "2024-02-01",
-                "latitude": 47.789,
-                "longitude": -114.987
-            }
-        ],
-        "health_status": "injured"
-    }
+    }.   
 ]
 ```
 
@@ -81,6 +59,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
+| 404 | Error | Specified wolf_id record not found |
 |  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information
@@ -89,7 +68,7 @@ None
 * [Wolf Pack Tracker API setup](../getting-started.md)
 * [Wolf Pack Tracker API tutorial](../_config.ymltutorials/tutorials.md)
 * [Wolves resource](wolves.md)
-    * [Get a single wolf](wolves-get-single.md)
+    * [Get all wolves](wolves-get-all.md)
     * [Add a wolf](wolves-post.md)
     * [Update a wolf](wolves-put.md)
     * [Delete a wolf](wolves-delete.md)

@@ -28,6 +28,10 @@ The Wolf Pack Tracker API provides the following resources for monitoring wolf p
 
 * [Wolves resource](api/wolves.md)
     * [Get all wolves](api/wolves-get-all.md)
+    * [Get a single wolf](api/wolves-get-single.md)
+    * [Add a wolf](api/wolves-post.md)
+    * [Update a wolf](api/wolves-put.md)
+    * [Delete a wolf](api/wolves-delete.md)
 * [Packs resource](api/packs.md)
     * [Get all packs](api/packs-get-all.md)
 * [Habitats resource](api/habitats.md)

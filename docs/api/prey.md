@@ -17,7 +17,7 @@ Wolf prey information.
 
 Sample`habitats` resource
 
-```js
+```JSON
 
     {
       "id": 1,
