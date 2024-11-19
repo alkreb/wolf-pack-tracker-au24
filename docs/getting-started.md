@@ -4,55 +4,49 @@ layout: page
 
 # Getting started
 
-These are the steps you must do before you can run
-the tutorial for the **Wolf Pack Tracker**.
+These are the steps you must do before you follow the tutorial and test the **Wolf Pack Tracker**.
 
-Expect this preparation to take about 20 minutes to complete.
+It will take about 20 minutes to complete the system setup.
 
-## Preparing to use the Wolf Pack Tracker API
+## Prepare to use the Wolf Pack Tracker API
 
-To use the API, you need the following.
-You might want to open the links in separate browser tabs before you start installing the software.
+To follow the tutorial and test the **Wolf Pack Tracker**, you need the following: 
 
 * A [GitHub account](https://github.com)
-* A development system (PC, Mac, or Linux) running a current or
-long-term support (LTS version of the operating system).
-* The following software on your development system:
-    * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
-    * [GitHub Desktop](https://desktop.github.com) (optional)
-    * A fork of the [Wolf Pack Tracker repo](https://github.com/alkreb/wolf-pack-tracker-au24)
-    * A current/LTS version of `node.js`
-    * A current version of [json-server](https://www.npmjs.com/package/json-server)
-    * A current copy of the database file. You can get this by syncing your fork.
-    * **TIP**: If you're using a fork of the repo, create a working branch in which to do your tutorials. Create a new branch for each tutorial to prevent a mistake in one from affecting your work in another.
-    * The [Postman desktop app](https://www.postman.com/downloads/). Because you run the **Wolf Pack Tracker** on your development system with an `http://localhost` hostname, the web-version of Postman can't perform the exercises.
+* A system (PC, Mac, or Linux) running a current or supported version.
+* The following software installed on your system:
+    * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+    * (Optional) [GitHub Desktop](https://desktop.github.com)
+    * Fork of the [Wolf Pack Tracker repo](https://github.com/alkreb/wolf-pack-tracker-au24)
+    * Current or supported version of `node.js`
+    * Current version of [json-server](https://www.npmjs.com/package/json-server)
+    * (Optional) The [Postman desktop app](https://www.postman.com/downloads/). **Note:** The **Wolf Pack Tracker** uses `http://localhost` as hostname, which means the web-version of Postman won't work for the tutorials. 
 
-## Test your development system
+## Test that you are running the **Wolf Pack Tracker** service
 
-To test your development system:.
+To test that the service is running:
 
-1. Create and checkout a test branch of your fork of the Wolf Pack Tracker repo. Your `GitHub repo workspace` is the directory that contains your fork of the `wolf-pack-tracker-au24` repo.
+1. Create a test branch from your fork of the Wolf Pack Tracker repo. 
 
     ```shell
     cd <your GitHub repo workspace>
     ls
-    # (see the wolf-pack-tracker-au24 directory in the list)
+    # (The wolf-pack-tracker-au24 directory displays in the list)
     cd wolf-pack-tracker-au24
     git checkout -b tutorial-test
     cd api
     json-server -w wolf-pack-tracker-db.json
     ```
 
-    If your development system is installed correctly, you should see
-    the service start and display the URL of the service: `http://localhost:3000`.
+    If everything is correctly installed, the service starts and displays the URL of the service: `http://localhost:3000`.
 
-2. Make a test call to the service.
+2. Send a test request to the service.
 
     ```shell
     curl 'http://localhost:3000/wolves'
     ```
 
-3. If the service is running correctly, you should see a list of wolves.
+3. If the service is running correctly, a list of wolves is returned.
 
     ```js
      [
@@ -102,16 +96,14 @@ To test your development system:.
         ...
     ```
 
-If you don't see the list of wolves, or receive an error in any step
-of the procedure, investigate and correct the error before continuing.
-Some common situations that cause errors include:
+If a list of wolves is not returned, check the following:
 
-1. You mistyped a command.
-2. You aren't in the correct directory.
-3. A required software component didn't install correctly.
-4. A required software component isn't up to date.
+1. Did you type the command correctly?
+2. Are you in the /api directory?
+3. Verify that you installed the required software correctly.
+4. Verify that you are running the most current or supported version of the required software.
 
-If you see the list of wolves from the service, you're ready for the
+If a list of wolves is returned from the service, you can now try the tutorial. 
 the [tutorial](tutorials/tutorials.md).
 
 ## More information
@@ -126,6 +118,10 @@ the [tutorial](tutorials/tutorials.md).
     * [Delete a wolf](api/wolves-delete.md)
 * [Packs resource](api/packs.md)
     * [Get all packs](api/packs-get-all.md)
+    * [Get a single pack](api/packs-get-single.md)
+    * [Add a pack](api/packs-post.md)
+    * [Update a  pack](api/packs-put.md)
+    * [Delete a pack](api/packs-delete.md)
 * [Habitats resource](api/habitats.md)
 * [Migration Events resource](api/migration-events.md)
 * [Prey resource](api/prey.md)

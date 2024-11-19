@@ -106,7 +106,7 @@ None
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
 | Insert failed, duplicate id | Error | Wolf is already tracked. Add a new wolf|
-|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information
 
@@ -120,6 +120,10 @@ None
     * [Delete a wolf](wolves-delete.md)
 * [Packs resource](packs.md)
     * [Get all packs](packs-get-all.md)
+    * [Get a single pack](packs-get-single.md)
+    * [Add a pack](packs-post.md)
+    * [Update a  pack](packs-put.md)
+    * [Delete a pack](packs-delete.md)
 * [Habitats resource](habitats.md)
 * [Migration Events resource](migration-events.md)
 * [Prey resource](prey.md)

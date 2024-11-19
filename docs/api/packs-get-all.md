@@ -59,16 +59,24 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-|  ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
+| ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information
 
 * [Wolf Pack Tracker API overview](../index.md)
 * [Wolf Pack Tracker API setup](../getting-started.md)
 * [Wolf Pack Tracker API tutorial](../tutorials/tutorials.md)
-* [Get all wolves](wolves-get-all.md)
+* [Wolves resource](wolves.md)
     * [Get all wolves](wolves-get-all.md)
+    * [Get a single wolf](wolves-get-single.md)
+    * [Add a wolf](wolves-post.md)
+    * [Update a wolf](wolves-put.md)
+    * [Delete a wolf](wolves-delete.md)
 * [Packs resource](packs.md)
+    * [Get a single pack](packs-get-single.md)
+    * [Add a pack](packs-post.md)
+    * [Update a  pack](packs-put.md)
+    * [Delete a pack](packs-delete.md)
 * [Habitats resource](habitats.md)
 * [Migration Events resource](migration-events.md)
 * [Prey resource](prey.md)

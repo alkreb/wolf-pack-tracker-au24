@@ -2,15 +2,15 @@
 layout: page
 ---
 
-# Delete a wolf
+# Delete a pack
 
-Remove a wolf from the tracking service.
+Remove a pack from the tracking service.
 
 ## URL
 
 ```shell
 
-curl --location --request DELETE '{base_url}/wolves/{id}' \
+curl --location --request DELETE '{base_url}/packs/{id}' \
 --data ''
 ```
 
@@ -48,12 +48,12 @@ none
     * [Get a single wolf](wolves-get-single.md)
     * [Add a wolf](wolves-post.md)
     * [Update a wolf](wolves-put.md)
+    * [Delete a wolf](wolves-delete.md)
 * [Packs resource](packs.md)
     * [Get all packs](packs-get-all.md)
     * [Get a single pack](packs-get-single.md)
     * [Add a pack](packs-post.md)
     * [Update a  pack](packs-put.md)
-    * [Delete a pack](packs-delete.md)
 * [Habitats resource](habitats.md)
 * [Migration Events resource](migration-events.md)
 * [Prey resource](prey.md)

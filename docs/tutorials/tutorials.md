@@ -10,7 +10,7 @@ You need about 20  minutes to complete this tutorial.
 
 ## Step 1: Set up your environment
 
-Review the  [getting started page](../getting-started.md) to get your environment set up.
+Review the [getting started page](../getting-started.md) to get your system set up.
 
 ## Step 2: Add your first wolf
 
@@ -82,8 +82,6 @@ To validate the user was added, run the following command. Change the id to matc
 curl --location --request GET 'http://localhost:3000/wolves/3'
 ```
 
-
-
 ## More information
 
 * [Wolf Pack Tracker API overview](../index.md)
@@ -96,6 +94,10 @@ curl --location --request GET 'http://localhost:3000/wolves/3'
     * [Delete a wolf](../api/wolves-delete.md)
 * [Packs resource](../api/packs.md)
     * [Get all packs](../api/packs-get-all.md)
+    * [Get a single pack](../api/packs-get-single.md)
+    * [Add a pack](../api/packs-post.md)
+    * [Update a  pack](../api/packs-put.md)
+    * [Delete a pack](../api/packs-delete.md)
 * [Habitats resource](../api/habitats.md)
 * [Migration Events resource](../api/migration-events.md)
 * [Prey resource](../api/prey.md)

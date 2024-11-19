@@ -4,8 +4,8 @@ layout: page
 
 # Wolf Pack Tracker service API
 
-_This is a mock API to simulate the REST interface of an
-imaginary service._
+_This is a mock API that simulates the REST interface of an
+imaginary wolf tracking service._
 
 Scientists, conservationist, and naturalists can track information about wolves and wolf packs, including their habitat, migration patterns, health and prey.
 
@@ -34,6 +34,10 @@ The Wolf Pack Tracker API provides the following resources for monitoring wolf p
     * [Delete a wolf](api/wolves-delete.md)
 * [Packs resource](api/packs.md)
     * [Get all packs](api/packs-get-all.md)
+    * [Get a single pack](api/packs-get-single.md)
+    * [Add a pack](api/packs-post.md)
+    * [Update a  pack](api/packs-put.md)
+    * [Delete a pack](api/packs-delete.md)
 * [Habitats resource](api/habitats.md)
 * [Migration Events resource](api/migration-events.md)
 * [Prey resource](api/prey.md)

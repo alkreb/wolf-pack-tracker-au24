@@ -2,25 +2,23 @@
 layout: page
 ---
 
-# Put wolf data
+# POST a wolf
 
-Update information for a wolf tracked by the service.
+Add a pack to the pack tracker service.
 
 ## URL
 
 ```shell
 
-url --location --request PUT '{base_url}/packs/1' \
+curl --location 'http://localhost:3000/packs/' \
 --header 'Content-Type: application/json' \
 --data '{
-    "id": 1,
-    "pack_id": "P001",
-    "pack_name": "Northern Wolves",
+    "id": "7",
+    "pack_id": "P007",
+    "pack_name": "Northern packs",
     "members": [
-        "W001",
-        "W002",
-        "W003",
-        "W004"
+        "W006",
+        "W007"
     ],
     "territory": "Northern Forest",
     "migration_pattern": [
@@ -47,17 +45,15 @@ None
 None
 
 ## Request body
-
 ```JSON
+
 {
-    "id": 1,
-    "pack_id": "P001",
-    "pack_name": "Northern Wolves",
+    "id": "7",
+    "pack_id": "P007",
+    "pack_name": "Northern packs",
     "members": [
-        "W001",
-        "W002",
-        "W003",
-        "W004"
+        "W006",
+        "W007"
     ],
     "territory": "Northern Forest",
     "migration_pattern": [
@@ -78,28 +74,28 @@ None
 ## Return body
 
 ```JSON
+
 {
-    "id": 1,
-    "wolf_id": "W001",
-    "name": "Alpha",
-    "location": {
-        "latitude": 45.123,
-        "longitude": -112.456
-    },
-    "pack_id": "P004",
-    "migration_history": [
+    "id": "7",
+    "pack_id": "P007",
+    "pack_name": "Northern packs",
+    "members": [
+        "W006",
+        "W007"
+    ],
+    "territory": "Northern Forest",
+    "migration_pattern": [
         {
-            "date": "2024-01-15",
-            "latitude": 45.123,
-            "longitude": -112.456
+            "date": "2024-01-01",
+            "latitude": 45,
+            "longitude": -112
         },
         {
-            "date": "2024-01-20",
-            "latitude": 46.789,
-            "longitude": -113.987
+            "date": "2024-02-01",
+            "latitude": 47,
+            "longitude": -114
         }
-    ],
-    "health_status": "Sick"
+    ]
 }
 ```
 
@@ -108,7 +104,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-| 404 | Error | Specified ID record not found |
+| Insert failed, duplicate id | Error | pack is already tracked. Add a new pack|
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information
@@ -120,11 +116,11 @@ None
     * [Get all wolves](wolves-get-all.md)
     * [Get a single wolf](wolves-get-single.md)
     * [Add a wolf](wolves-post.md)
+    * [Update a wolf](wolves-put.md)
     * [Delete a wolf](wolves-delete.md)
 * [Packs resource](packs.md)
     * [Get all packs](packs-get-all.md)
     * [Get a single pack](packs-get-single.md)
-    * [Add a pack](packs-post.md)
     * [Update a  pack](packs-put.md)
     * [Delete a pack](packs-delete.md)
 * [Habitats resource](habitats.md)

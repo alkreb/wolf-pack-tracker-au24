@@ -2,16 +2,18 @@
 layout: page
 ---
 
-# Delete a wolf
+# Put pack data
 
-Remove a wolf from the tracking service.
+Update information for a pack tracked by the service.
 
 ## URL
 
 ```shell
 
-curl --location --request DELETE '{base_url}/wolves/{id}' \
---data ''
+curl --location --request PUT '{base_url}/packs/1' \
+--header 'Content-Type: application/json' \
+--data '{
+    
 ```
 
 ## Params
@@ -24,17 +26,25 @@ None
 
 ## Request body
 
-none
+```JSON
+{
+   
+}
+```
 
 ## Return body
 
-none
+```JSON
+{
+   
+}
+```
 
 ## Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 200 | Success | Data deleted successfully |
+| 200 | Success | Requested data returned successfully |
 | 404 | Error | Specified ID record not found |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
@@ -48,11 +58,11 @@ none
     * [Get a single wolf](wolves-get-single.md)
     * [Add a wolf](wolves-post.md)
     * [Update a wolf](wolves-put.md)
+    * [Delete a wolf](wolves-delete.md)
 * [Packs resource](packs.md)
     * [Get all packs](packs-get-all.md)
     * [Get a single pack](packs-get-single.md)
     * [Add a pack](packs-post.md)
-    * [Update a  pack](packs-put.md)
     * [Delete a pack](packs-delete.md)
 * [Habitats resource](habitats.md)
 * [Migration Events resource](migration-events.md)

@@ -146,7 +146,9 @@
       "pack_name": "Northern Wolves",
       "members": [
         "W001",
-        "W002"
+        "W002",
+        "W003",
+        "W004"
       ],
       "territory": "Northern Forest",
       "migration_pattern": [
