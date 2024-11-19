@@ -7,7 +7,8 @@ layout: page
 _This is a mock API that simulates the REST interface of an
 imaginary wolf tracking service._
 
-Scientists, conservationist, and naturalists can track information about wolves and wolf packs, including their habitat, migration patterns, health and prey.
+Scientists, conservationist, and naturalists can track information about wolves and wolf packs. 
+The API includes a complete set of wolf tracking data including their habitat, migration patterns, health, and prey.
 
 ## Getting started
 
@@ -16,15 +17,16 @@ The tutorial explains how to set up your system to use the Wolf Pack Tracer API.
 * [Wolf Pack Tracker API setup](getting-started.md).
 
 
-## Tutorial
+## Tutorials
 
-Learn how to add a wolf to the Wolf Pack Tracker service. 
+These tutorials give you practice with some common scenarios when using the Wolf Pack Tracker API.
 
-* [Wolf Pack Tracker API tutorial](tutorials/tutorials.md).
+[Learn how to add a wolf to the Wolf Pack Tracker service ](tutorials/tutorials.md).
+[Learn how to update the information for a wolf pack]() 
 
 ## Reference
 
-The Wolf Pack Tracker API provides the following resources for monitoring wolf packs:
+The Wolf Pack Tracker API provides the following resources for monitoring wolves and wolf packs:
 
 * [Wolves resource](api/wolves.md)
     * [Get all wolves](api/wolves-get-all.md)
@@ -42,7 +44,7 @@ The Wolf Pack Tracker API provides the following resources for monitoring wolf p
 * [Migration Events resource](api/migration-events.md)
 * [Prey resource](api/prey.md)
 
-**Note:** The API reference docs refer to a `{base_url}` the value depends
+**Note:** The documentation references `{base_url}` throughout. This value depends
 on the installation of the service. 
-When run locally for testing, the `{base_url}` is
+When you are running the service locally for testing, the `{base_url}` is
 typically  `http://localhost:3000`.

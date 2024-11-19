@@ -2,10 +2,10 @@
 layout: page
 ---
 
-# Add a wolf to the tracker
+# Add a wolf pack to the tracker
 
-This tutorial adds a wolf to the tracker service. 
-You can add the wolf's name, location, pack, migration history and health information. 
+This tutorial adds a wolf pack to the tracker service. 
+You can add the pack's name, territory, wolf members, and migration patterns. 
 
 You need about 20  minutes to complete this tutorial.
 
@@ -15,7 +15,7 @@ Review the [getting started page](../getting-started.md) to get your system set 
 
 ## Step 2: Add your first wolf
 
-To add a wolf run the following command. 
+To add a pack run the following command.
 
 ```shell
 curl --location 'http://localhost:3000/wolves' \
@@ -77,7 +77,7 @@ The response is returned.  Make note of the id; it may be different in your resp
 
 ## Step 3: Retrieve the wolf
 
-To validate the wolf was added, run the following command. Change the id to match the one returned for the wolf.
+To validate the pack was added, run the following command. Change the id to match the one returned for the pack.
 
 ```shell
 curl --location --request GET 'http://localhost:3000/wolves/3'
