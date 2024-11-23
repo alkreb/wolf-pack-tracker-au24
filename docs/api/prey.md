@@ -8,14 +8,14 @@ Base endpoint:
 
 ```shell
 
-{base_url}/habitats
+{base_url}/prey
 ```
 
 Wolf prey information.
 
 ## Resource properties
 
-Sample`habitats` resource
+Sample`prey` resource
 
 ```JSON
 

@@ -4,27 +4,27 @@ layout: page
 
 # Getting started
 
-These are the steps you must do before you follow the tutorial and test the **Wolf Pack Tracker**.
+Follow these steps to get your system set up and make your first request to the **Wolf Pack Tracker** API**.
+Once you are set up, you can try out the tutorials and start using the service. 
 
-It will take about 20 minutes to complete the system setup.
+It will take about 30 minutes to complete the system setup.
 
-## Prepare to use the Wolf Pack Tracker API
+## Prerequisites to use the Wolf Pack Tracker API
 
-To follow the tutorial and test the **Wolf Pack Tracker**, you need the following: 
+To follow the tutorials and test the **Wolf Pack Tracker** make sure you have completed the following:  
 
-* A [GitHub account](https://github.com)
-* A system (PC, Mac, or Linux) running a current or supported version.
-* The following software installed on your system:
-    * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
-    * (Optional) [GitHub Desktop](https://desktop.github.com)
-    * Fork of the [Wolf Pack Tracker repo](https://github.com/alkreb/wolf-pack-tracker-au24)
-    * Current or supported version of `node.js`
-    * Current version of [json-server](https://www.npmjs.com/package/json-server)
-    * (Optional) The [Postman desktop app](https://www.postman.com/downloads/). **Note:** The **Wolf Pack Tracker** uses `http://localhost` as hostname, which means the web-version of Postman won't work for the tutorials. 
+1. Create a [GitHub account](https://github.com) if you don't have one already. 
+1. Make sure your system (PC, Mac, or Linux) is running a current or supported operating system version.
+1. Install [Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+1. (Optional) Install [GitHub Desktop](https://desktop.github.com)
+1. Fork the  [Wolf Pack Tracker repo](https://github.com/alkreb/wolf-pack-tracker-au24)
+1. Install a current or supported version of `node.js`
+1. Install a current version of [json-server](https://www.npmjs.com/package/json-server)
+1. (Optional) Install the [Postman desktop app](https://www.postman.com/downloads/). **Note:** The **Wolf Pack Tracker** uses `http://localhost` as hostname, which means the web-version of Postman won't work for the tutorials. 
 
-## Test that you are running the **Wolf Pack Tracker** service
+## Test that you can run the **Wolf Pack Tracker** service
 
-To test that the service is running:
+To test that you can run the service:
 
 1. Create a test branch from your fork of the Wolf Pack Tracker repo. 
 
@@ -96,15 +96,19 @@ To test that the service is running:
         ...
     ```
 
+If a list of wolves is returned from the service, you can now try the tutorials: 
+
+* [Add a wolf tutorial](tutorials/tutorials.md).
+* [Update a pack tutorial]()
+
+### Troubleshooting the first request
+
 If a list of wolves is not returned, check the following:
 
-1. Did you type the command correctly?
+1. Did you type the commands correctly?
 2. Are you in the /api directory?
 3. Verify that you installed the required software correctly.
-4. Verify that you are running the most current or supported version of the required software.
-
-If a list of wolves is returned from the service, you can now try the tutorial. 
-the [tutorial](tutorials/tutorials.md).
+4. Verify that you are running the most current or a supported version of the required software.
 
 ## More information
 
