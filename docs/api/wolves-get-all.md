@@ -87,7 +87,7 @@ None
 
 * [Wolf Pack Tracker API overview](../index.md)
 * [Wolf Pack Tracker API setup](../getting-started.md)
-* [Wolf Pack Tracker API tutorial](../_config.ymltutorials/tutorials.md)
+* [Wolf Pack Tracker API tutorial](../_config.ymltutorials/update-pack-tutorial.md)
 * [Wolves resource](wolves.md)
     * [Get a single wolf](wolves-get-single.md)
     * [Add a wolf](wolves-post.md)

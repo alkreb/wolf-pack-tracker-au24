@@ -42,7 +42,7 @@ Sample`habitats` resource
 
 * [Wolf Pack Tracker API overview](../index.md)
 * [Wolf Pack Tracker API setup](../getting-started.md)
-* [Wolf Pack Tracker API tutorial](../tutorials/tutorials.md)
+* [Wolf Pack Tracker API tutorial](../tutorials/update-pack-tutorial.md)
 * [Wolves resource](wolves.md)
     * [Get all wolves](wolves-get-all.md)
     * [Get a single wolf](wolves-get-single.md)

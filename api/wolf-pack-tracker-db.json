@@ -45,110 +45,17 @@
         }
       ],
       "health_status": "injured"
-    },
-    {
-      "wolf_id": "W003",
-      "name": "Anubis",
-      "location": {
-        "latitude": 45,
-        "longitude": -112
-      },
-      "pack_id": "P001",
-      "migration_history": [
-        {
-          "date": "2024-01-15",
-          "latitude": 45.123,
-          "longitude": -112.456
-        },
-        {
-          "date": "2024-01-20",
-          "latitude": 46.789,
-          "longitude": -113.987
-        }
-      ],
-      "health_status": "injured",
-      "id": 3
-    },
-    {
-      "wolf_id": "W003",
-      "name": "Anubis",
-      "location": {
-        "latitude": 45,
-        "longitude": -112
-      },
-      "pack_id": "P001",
-      "migration_history": [
-        {
-          "date": "2024-01-15",
-          "latitude": 45.123,
-          "longitude": -112.456
-        },
-        {
-          "date": "2024-01-20",
-          "latitude": 46.789,
-          "longitude": -113.987
-        }
-      ],
-      "health_status": "injured",
-      "id": 4
-    },
-    {
-      "id": 7,
-      "wolf_id": "W007",
-      "name": "Belle",
-      "location": {
-        "latitude": 45.123,
-        "longitude": -112.456
-      },
-      "pack_id": "P001",
-      "migration_history": [
-        {
-          "date": "2024-01-15",
-          "latitude": 45.123,
-          "longitude": -112.456
-        },
-        {
-          "date": "2024-01-20",
-          "latitude": 46.789,
-          "longitude": -113.987
-        }
-      ],
-      "health_status": "pregnant"
-    },
-    {
-      "id": 8,
-      "wolf_id": "W008",
-      "name": "Cinder",
-      "location": {
-        "latitude": 45.123,
-        "longitude": -112.456
-      },
-      "pack_id": "P001",
-      "migration_history": [
-        {
-          "date": "2024-01-15",
-          "latitude": 45.123,
-          "longitude": -112.456
-        },
-        {
-          "date": "2024-01-20",
-          "latitude": 46.789,
-          "longitude": -113.987
-        }
-      ],
-      "health_status": "healthy"
     }
   ],
   "packs": [
     {
       "id": 1,
-      "pack_id": "P001",
+      "pack_id": "P002",
       "pack_name": "Northern Wolves",
       "members": [
         "W001",
         "W002",
-        "W003",
-        "W004"
+        "W003"
       ],
       "territory": "Northern Forest",
       "migration_pattern": [

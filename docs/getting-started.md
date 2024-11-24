@@ -98,7 +98,7 @@ To test that you can run the service:
 
 If a list of wolves is returned from the service, you can now try the tutorials: 
 
-* [Add a wolf tutorial](tutorials/tutorials.md).
+* [Add a wolf tutorial](tutorials/update-pack-tutorial.md).
 * [Update a pack tutorial]()
 
 ### Troubleshooting the first request
@@ -113,7 +113,7 @@ If a list of wolves is not returned, check the following:
 ## More information
 
 * [Wolf Pack Tracker API overview](index.md)
-* [Wolf Pack Tracker API tutorial](tutorials/tutorials.md)
+* [Wolf Pack Tracker API tutorial](tutorials/update-pack-tutorial.md)
 * [Wolves resource](api/wolves.md)
     * [Get all wolves](api/wolves-get-all.md)
     * [Get a single wolf](api/wolves-get-single.md)
