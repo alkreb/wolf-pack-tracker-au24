@@ -58,7 +58,8 @@ Sample `wolves` resource
 
 * [Wolf Pack Tracker API overview](../index.md)
 * [Wolf Pack Tracker API setup](../getting-started.md)
-* [Wolf Pack Tracker API tutorial](../tutorials/tutorials.md)
+* [Add a wolf tutorial](tutorials/add-wolf-tutorial.md)
+* [Add a wolf to a pack tutorial](tutorials/update-pack-tutorial.md)
 * [Get all wolves](wolves-get-all.md)
 * [Get a single wolf](wolves-get-single.md)
 * [Add a wolf](wolves-post.md)

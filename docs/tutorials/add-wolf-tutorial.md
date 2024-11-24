@@ -7,11 +7,11 @@ layout: page
 This tutorial adds a wolf to the tracker service. 
 You can add the wolf's name, location, pack, migration history and health information. 
 
-You need about 20  minutes to complete this tutorial.
+You need about 15 minutes to complete this tutorial.
 
-## Step 1: Set up your environment
+## Step 1: Set up your environment and start the service
 
-Review the [getting started page](../getting-started.md) to get your system set up.
+Review the [getting started page](../getting-started.md) to get your system set up and start the service. 
 
 ## Step 2: Add your first wolf
 
@@ -82,6 +82,11 @@ To validate the wolf was added, run the following command. Change the id to matc
 ```shell
 curl --location --request GET 'http://localhost:3000/wolves/3'
 ```
+
+## What's next?
+
+Next, you can practice [updating a wolf pack to add a wolf](tutorials/update-pack-tutorial.md).
+
 
 ## More information
 
