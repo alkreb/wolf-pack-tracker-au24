@@ -4,7 +4,7 @@ layout: page
 
 # Add a wolf pack to the tracker
 
-This tutorial updates a wolf pack to add a wolf to the pack. 
+This tutorial adds a wolf to a wolf pack.
 
 You need about 15 minutes to complete this tutorial.
 
@@ -73,11 +73,11 @@ A list of packs is returned in the response.
 ```
 
 Make note of the members of pack_id P001. This is a list of the wolf_ids for the wolves in the pack. 
-In the next step you will add a member to the pack. For this tutorial, you can add a made up wolf_id. If you were actually using the API you would have first added the wolf to the wolf resource.
+In the next step you will add a member to the pack. For this tutorial, you can add a made up wolf_id. If you were actually using the API you would first add the wolf to the [Wolf resource](../api/wolves.md).
 
 ## Step 2: Update a pack's information
 
-To update pack P001 to add a wolf (for example, W003),  run the following command with your wolf added to the members array. 
+To update pack P001 to add a wolf (for example, W003), run the following command with your wolf added to the members array. 
 
 ```shell
 
@@ -141,7 +141,7 @@ The response is returned. You can see that your wolf is now a member of the pack
 
 ## What's next?
 
-If you have not practiced adding a wolf yet, try the [adding a wolf](tutorials/add-wolf-tutorial.md).
+If you have not practiced adding a wolf yet, try [adding a wolf](tutorials/add-wolf-tutorial.md).
 
 
 ## More information

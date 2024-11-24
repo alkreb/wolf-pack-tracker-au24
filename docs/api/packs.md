@@ -10,7 +10,7 @@ Base endpoint:
 
 {base_url}/packs
 ```
-Location, migration and health information for packs tracked by the service. 
+Location, migration, and members information for packs tracked by the service. 
 
 ## Resource properties
 
@@ -45,10 +45,10 @@ Sample `packs` resource
 | ------------- | ----------- | ----------- |
 | `id`	|number	|The unique record ID|
 |`pack_id` | number | The ID of the pack|
-|`pack_name` | string | The wolf's name|
+|`pack_name` | string | The packs's name|
 |`members` | array | Wolves in the pack|
-|`territory` | string | Geographical region of the wolf packs territory|
-|`migration_pattern` | array | The date, latitude, and longitude of the wolf's migration habits|
+|`territory` | string | Geographical region of the wolf pack's territory|
+|`migration_pattern` | array | The date, latitude, and longitude of the packs's migration habits|
 
 ## More information
 

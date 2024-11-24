@@ -108,7 +108,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-| 404 | Error | Specified ID record not found |
+| 404 | Error | Specified ID record not found. Use a valid ID. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information

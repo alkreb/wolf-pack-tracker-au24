@@ -46,7 +46,7 @@ curl --location 'http://localhost:3000/wolves' \
 
 ## Step 3: Verify the response
 
-The response is returned.  Make note of the id; it may be different in your response.
+The response is returned.  Make note of the id. The id may be different in your response.
 
 ```JSON
 {
@@ -77,7 +77,7 @@ The response is returned.  Make note of the id; it may be different in your resp
 
 ## Step 3: Retrieve the wolf
 
-To validate the wolf was added, run the following command. Change the id to match the one returned for the wolf.
+To validate the wolf was added, run the following command. Change the id to match the one returned for the wolf you added.
 
 ```shell
 curl --location --request GET 'http://localhost:3000/wolves/3'
@@ -85,7 +85,7 @@ curl --location --request GET 'http://localhost:3000/wolves/3'
 
 ## What's next?
 
-Next, you can practice [updating a wolf pack to add a wolf](tutorials/update-pack-tutorial.md).
+Next, you can practice [updating a wolf pack to add a wolf](update-pack-tutorial.md).
 
 
 ## More information
