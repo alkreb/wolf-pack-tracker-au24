@@ -83,6 +83,11 @@ To validate the wolf was added, run the following command. Change the id to matc
 curl --location --request GET 'http://localhost:3000/wolves/3'
 ```
 
+## What's next?
+
+Next, you can practice [updating a wolf pack to add a wolf](tutorials/update-pack-tutorial.md).
+
+
 ## More information
 
 * [Wolf Pack Tracker API overview](../index.md)

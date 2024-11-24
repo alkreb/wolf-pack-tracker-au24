@@ -139,6 +139,11 @@ The response is returned. You can see that your wolf is now a member of the pack
 }
 ```
 
+## What's next?
+
+If you have not practiced adding a wolf yet, try the [adding a wolf](tutorials/add-wolf-tutorial.md).
+
+
 ## More information
 
 * [Wolf Pack Tracker API overview](../index.md)

@@ -11,17 +11,17 @@ The API includes a complete set of wolf tracking data including their habitat, m
 
 ## Getting started
 
-The tutorial explains how to set up your system to use the Wolf Pack Tracer API.
+TThe tutorial explains how to set up your system to use the Wolf Pack Tracer API.
 
 * [Wolf Pack Tracker API setup](getting-started.md).
 
 
 ## Tutorials
 
-These tutorials give you practice with some common scenarios when using the Wolf Pack Tracker API.
+These tutorials let you practice with some common scenarios for using the Wolf Pack Tracker API.
 
-Learn how to [add a wolf to the Wolf Pack Tracker service ](tutorials/update-pack-tutorial.md).
-Learn how to [update the information for a wolf pack]((tutorials/pack-update-pack-tutorial.md)) 
+* Learn how to [add a wolf to the Wolf Pack Tracker service ](tutorials/update-pack-tutorial.md).
+* Learn how to [update the information for a wolf pack]((tutorials/pack-update-pack-tutorial.md)) 
 
 ## Reference
 

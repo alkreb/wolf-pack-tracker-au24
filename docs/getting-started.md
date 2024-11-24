@@ -110,10 +110,15 @@ If a list of wolves is not returned, check the following:
 3. Verify that you installed the required software correctly.
 4. Verify that you are running the most current or a supported version of the required software.
 
+## What's next
+
+Now that you have the service up and running, you can practice [adding a wolf](tutorials/add-wolf-tutorial.md).
+
 ## More information
 
 * [Wolf Pack Tracker API overview](index.md)
-* [Wolf Pack Tracker API tutorial](tutorials/update-pack-tutorial.md)
+* [Add a wolf tutorial](tutorials/add-wolf-tutorial.md)
+* [Add a wolf to a pack tutorial](tutorials/update-pack-tutorial.md)
 * [Wolves resource](api/wolves.md)
     * [Get all wolves](api/wolves-get-all.md)
     * [Get a single wolf](api/wolves-get-single.md)
