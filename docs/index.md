@@ -20,7 +20,7 @@ The **Getting started** tutorial explains how to set up your system to use the W
 These tutorials let you practice with some common scenarios for using the Wolf Pack Tracker API.
 
 * Learn how to [add a wolf](tutorials/update-pack-tutorial.md).
-* Learn how to [update the information for a wolf pack](tutorials/pack-update-pack-tutorial.md). 
+* Learn how to [update the information for a wolf pack](tutorials/update-pack-tutorial.md). 
 
 ## Reference
 

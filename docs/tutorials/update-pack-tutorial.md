@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Add a wolf pack to the tracker
+# Add a wolf to a pack
 
 This tutorial adds a wolf to a wolf pack.
 
@@ -141,7 +141,7 @@ The response is returned. You can see that your wolf is now a member of the pack
 
 ## What's next?
 
-If you have not practiced adding a wolf yet, try [adding a wolf](tutorials/add-wolf-tutorial.md).
+If you have not practiced adding a wolf to the service yet, try [adding a wolf](add-wolf-tutorial.md).
 
 
 ## More information
