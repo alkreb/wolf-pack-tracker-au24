@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Get all wolves
+# Get an individual wolf
 
 Get information for a wolf tracked by the service.
 

@@ -2,9 +2,9 @@
 layout: page
 ---
 
-# POST a wolf
+# POST a pack
 
-Add a pack to the pack tracker service.
+Add a pack to the wolf pack tracker service.
 
 ## URL
 
@@ -104,7 +104,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
-| Insert failed, duplicate id | Error | pack is already tracked. Add a new pack|
+| Insert failed, duplicate id | Error | Pack is already tracked. Add a new pack|
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information

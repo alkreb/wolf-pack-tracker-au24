@@ -4,7 +4,7 @@ layout: page
 
 # Getting started
 
-Follow these steps to get your system set up and make your first request to the **Wolf Pack Tracker** API**.
+Follow these steps to get your system set up and make your first request to the **Wolf Pack Tracker API**.
 Once you are set up, you can try out the tutorials and start using the service. 
 
 It will take about 30 minutes to complete the system setup.
