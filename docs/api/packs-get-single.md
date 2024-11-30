@@ -13,19 +13,40 @@ Get information for a pack tracked by the service.
 {base_url}/packs?pack_id={pack_id}
 ```
 
-## Params
+## Parameters
+
+### Path parameters
 
 None
+
+### Query parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+|`pack_id` | number | The ID of the pack|
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
 
 None
 
 ## Return body
+
+### Return body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`pack_id` | number | The ID of the pack|
+|`pack_name` | string | The packs's name|
+|`members` | array | Wolves in the pack|
+|`territory` | string | Geographical region of the wolf pack's territory|
+|`migration_pattern` | array | The date, latitude, and longitude of the packs's migration habits|
+
+### Example JSON return body
 
 ```JSON
 [
@@ -59,6 +80,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
+| 400 | Error | Invalid request. Check request format. |
 | 404 | Error | Specified pack_id record not found. Use a valid pack_id |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 

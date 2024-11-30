@@ -10,42 +10,39 @@ Add a wolf to the wolf tracker service.
 
 ```shell
 
-curl --location '{base_url}/wolves/' \
---header 'Content-Type: application/json' \
---data '{
-    "id": 7,
-    "wolf_id": "W007",
-    "name": "Belle",
-    "location": {
-        "latitude": 45.123,
-        "longitude": -112.456
-    },
-    "pack_id": "P001",
-    "migration_history": [
-        {
-            "date": "2024-01-15",
-            "latitude": 45.123,
-            "longitude": -112.456
-        },
-        {
-            "date": "2024-01-20",
-            "latitude": 46.789,
-            "longitude": -113.987
-        }
-    ],
-    "health_status": "pregnant"
-}'
+curl --location '{base_url}/wolves/'
 ```
 
-## Params
+## Parameters
+
+### Path parameters
+
+None
+
+### Query parameters
 
 None
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
+
+### Request body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`wolf_id` | number | The ID of the wolf|
+|`name` | string | The wolf's name|
+|`location` | array | The latitude and longitude of the wolf's location|
+|`pack_id` | number | The wolf's pack id number|
+|`migration_history` | array | The date, latitude, and longitude of the wolf's past migrations. 
+|`health_status` |string| Status of the wolf's health|
+
+
+### Example JSON request body
 ```JSON
 {
     "id": 7,
@@ -73,6 +70,21 @@ None
 ```
 
 ## Return body
+
+### Return body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`wolf_id` | number | The ID of the wolf|
+|`name` | string | The wolf's name|
+|`location` | array | The latitude and longitude of the wolf's location|
+|`pack_id` | number | The wolf's pack id number|
+|`migration_history` | array | The date, latitude, and longitude of the wolf's past migrations. 
+|`health_status` |string| Status of the wolf's health|
+
+
+### Example JSON return body
 
 ```JSON
 
@@ -105,6 +117,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
+| 400 | Error | Invalid request. Check request format. |
 | Insert failed, duplicate id | Error | Wolf is already tracked. Add a new wolf|
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 

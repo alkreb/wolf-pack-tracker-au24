@@ -10,41 +10,39 @@ Add a pack to the wolf pack tracker service.
 
 ```shell
 
-curl --location 'http://localhost:3000/packs/' \
---header 'Content-Type: application/json' \
---data '{
-    "id": "7",
-    "pack_id": "P007",
-    "pack_name": "Northern packs",
-    "members": [
-        "W006",
-        "W007"
-    ],
-    "territory": "Northern Forest",
-    "migration_pattern": [
-        {
-            "date": "2024-01-01",
-            "latitude": 45,
-            "longitude": -112
-        },
-        {
-            "date": "2024-02-01",
-            "latitude": 47,
-            "longitude": -114
-        }
-    ]
-}'
+curl --location 'http://localhost:3000/packs/'
 ```
 
-## Params
+## Parameters
+
+### Path parameters
 
 None
+
+### Query parameters
+
+None
+
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
+
+### Request body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`pack_id` | number | The ID of the pack|
+|`pack_name` | string | The packs's name|
+|`members` | array | Wolves in the pack|
+|`territory` | string | Geographical region of the wolf pack's territory|
+|`migration_pattern` | array | The date, latitude, and longitude of the packs's migration habits|
+
+### Example JSON request body
+
 ```JSON
 
 {
@@ -72,6 +70,19 @@ None
 ```
 
 ## Return body
+
+### Return body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`pack_id` | number | The ID of the pack|
+|`pack_name` | string | The packs's name|
+|`members` | array | Wolves in the pack|
+|`territory` | string | Geographical region of the wolf pack's territory|
+|`migration_pattern` | array | The date, latitude, and longitude of the packs's migration habits|
+
+### Example JSON return body
 
 ```JSON
 
@@ -103,7 +114,8 @@ None
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
-| 200 | Success | Requested data returned successfully |
+| 200 | Success | Requested data returned successfully. |
+| 400 | Error | Invalid request. Check request format. |
 | Insert failed, duplicate id | Error | Pack is already tracked. Add a new pack|
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 

@@ -38,7 +38,7 @@ Sample`habitats` resource
 | `climate` | string | The habitat's climate|
 | `prey_population` | array | Lists the prey in the habitat|
 
-## More information
+## More Information
 
 * [Wolf Pack Tracker API overview](../index.md)
 * [Wolf Pack Tracker API setup](../getting-started.md)
