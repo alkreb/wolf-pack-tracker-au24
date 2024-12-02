@@ -6,12 +6,12 @@ imaginary wolf tracking service._
 
 # Wolf Pack Tracker service API
 
-Scientists, conservationist, and naturalists can track information about wolves and wolf packs. 
-The API includes a complete set of wolf tracking data including their habitat, migration patterns, health, and prey.
+Scientists, conservationists, and naturalists can track information about wolves and wolf packs. 
+The service includes a complete set of wolf tracking data including their habitat, migration patterns, health, and prey.
 
 ## Getting started
 
-The **Getting started** tutorial explains how to set up your system to use the Wolf Pack Tracer API.
+The **Getting started** tutorial explains how to set up your system to use the Wolf Pack Tracker service API.
 
 * [Wolf Pack Tracker API setup](getting-started.md).
 
@@ -19,8 +19,8 @@ The **Getting started** tutorial explains how to set up your system to use the W
 
 These tutorials let you practice with some common scenarios for using the Wolf Pack Tracker API.
 
-* Learn how to [add a wolf](tutorials/update-pack-tutorial.md).
-* Learn how to [update the information for a wolf pack](tutorials/update-pack-tutorial.md). 
+* [Add a wolf](tutorials/add-wolf-tutorial.md).
+* [Update the information for a wolf pack](tutorials/update-pack-tutorial.md). 
 
 ## Reference
 
@@ -41,8 +41,3 @@ The Wolf Pack Tracker API provides the following resources for monitoring wolves
 * [Habitats resource](api/habitats.md)
 * [Migration Events resource](api/migration-events.md)
 * [Prey resource](api/prey.md)
-
-**Note:** The documentation references `{base_url}` throughout. This value depends
-on the installation of the service. 
-When you are running the service locally for testing, the `{base_url}` is
-typically  `http://localhost:3000`.

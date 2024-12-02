@@ -10,6 +10,7 @@ Base endpoint:
 
 {base_url}/packs
 ```
+
 Location, migration, and members information for packs tracked by the service. 
 
 ## Resource properties

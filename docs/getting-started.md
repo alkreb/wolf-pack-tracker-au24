@@ -5,6 +5,7 @@ layout: page
 # Getting started
 
 Follow these steps to get your system set up and make your first request to the **Wolf Pack Tracker API**.
+
 Once you are set up, you can try out the tutorials and start using the service. 
 
 It will take about 30 minutes to complete the system setup.
@@ -39,6 +40,10 @@ To test that you can run the service:
     ```
 
     If everything is correctly installed, the service starts and displays the URL of the service: `http://localhost:3000`.
+
+    > [!NOTE]  
+    > The documentation references `{base_url}` throughout. This value depends
+    on the installation of the service. When you are running the service locally for testing, the `{base_url}` is typically  `http://localhost:3000`.
 
 2. Send a test request to the service.
 
@@ -95,11 +100,6 @@ To test that you can run the service:
             }
         ...
     ```
-
-If a list of wolves is returned from the service, you can now try the tutorials: 
-
-* [Add a wolf tutorial](tutorials/update-pack-tutorial.md).
-* [Update a pack tutorial]()
 
 ### Troubleshooting the first request
 

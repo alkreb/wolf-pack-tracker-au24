@@ -13,19 +13,38 @@ Get information for all packs tracked by the service.
 {base_url}/packs
 ```
 
-## Params
+## Parameters
+
+### Path parameters
+
+None
+
+### Query parameters
 
 None
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
 
 None
 
 ## Return body
+
+### Return body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`pack_id` | number | The ID of the pack|
+|`pack_name` | string | The packs's name|
+|`members` | array | Wolves in the pack|
+|`territory` | string | Geographical region of the wolf pack's territory|
+|`migration_pattern` | array | The date, latitude, and longitude of the packs's migration habits|
+
+### Example JSON return body
 
 ```JSON
 [
@@ -59,6 +78,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
+| 400 | Error | Invalid request. Check request format. |
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
 ## More information

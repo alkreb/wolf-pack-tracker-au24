@@ -10,31 +10,44 @@ Remove a pack from the tracking service.
 
 ```shell
 
-curl --location --request DELETE '{base_url}/packs/{id}' \
---data ''
+curl --location --request DELETE '{base_url}/packs/{id}'
 ```
 
-## Params
+## Parameters
+
+### Path parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+
+### Query parameters
 
 None
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
 
-none
+None
 
 ## Return body
 
-none
+### Example JSON return body
+
+```shell
+
+{}
+```
 
 ## Return status
 
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Data deleted successfully |
+| 400 | Error | Invalid request. Check request format. |
 | 404 | Error | Specified ID record not found. Use a valid ID.|
 | ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 

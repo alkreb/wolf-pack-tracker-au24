@@ -13,19 +13,42 @@ Get information for a wolf tracked by the service.
 {base_url}/wolves?wolf_id={wolf_id}
 ```
 
-## Params
+## Parameters
+
+### Path parameters
 
 None
+
+### Query parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+|`wolf_id` | number | The ID of the wolf|
 
 ## Request headers
 
-None
+Content-Type: application/json
 
 ## Request body
 
 None
 
 ## Return body
+
+### Return body parameters
+
+| Property name | Type | Description |
+| ------------- | ----------- | ----------- |
+| `id`	|number	|The unique record ID|
+|`wolf_id` | number | The ID of the wolf|
+|`name` | string | The wolf's name|
+|`location` | array | The latitude and longitude of the wolf's location|
+|`pack_id` | number | The wolf's pack id number|
+|`migration_history` | array | The date, latitude, and longitude of the wolf's past migrations. 
+|`health_status` |string| Status of the wolf's health|
+
+
+### Example JSON return body
 
 ```JSON
 [
@@ -59,6 +82,7 @@ None
 | Status value | Return status | Description |
 | ------------- | ----------- | ----------- |
 | 200 | Success | Requested data returned successfully |
+| 400 | Error | Invalid request. Check request format. |
 | 404 | Error | Specified wolf_id record not found |
 |ECONNREFUSED | N/A | Service is offline. Start the service and try again. |
 
