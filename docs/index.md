@@ -11,7 +11,7 @@ The service includes a complete set of wolf tracking data including their habita
 
 ## Getting started
 
-The **Getting started** tutorial explains how to set up your system to use the Wolf Pack Tracker API.
+The **Getting started** tutorial explains how to set up your system to use the Wolf Pack Tracker service API.
 
 * [Wolf Pack Tracker API setup](getting-started.md).
 
@@ -19,8 +19,8 @@ The **Getting started** tutorial explains how to set up your system to use the W
 
 These tutorials let you practice with some common scenarios for using the Wolf Pack Tracker API.
 
-* Learn how to [add a wolf](tutorials/add-wolf-tutorial.md).
-* Learn how to [update the information for a wolf pack](tutorials/update-pack-tutorial.md). 
+* [Add a wolf](tutorials/add-wolf-tutorial.md).
+* [Update the information for a wolf pack](tutorials/update-pack-tutorial.md). 
 
 ## Reference
 
