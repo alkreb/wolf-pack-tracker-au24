@@ -53,7 +53,7 @@ To test that you can run the service:
 
 3. If the service is running correctly, a list of wolves is returned.
 
-    ```js
+    ```json
      [
             "wolf_id": "W001",
         "name": "Alpha",

@@ -17,7 +17,7 @@ Location, migration and health information for wolves tracked by the service.
 
 Sample `wolves` resource
 
-```JSON
+```json
 
 {
     "wolf_id": "W001",

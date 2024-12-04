@@ -48,7 +48,7 @@ curl --location 'http://localhost:3000/wolves' \
 
 The response is returned.  Make note of the id. The id may be different in your response.
 
-```JSON
+```json
 
  {
     "wolf_id": "W003",

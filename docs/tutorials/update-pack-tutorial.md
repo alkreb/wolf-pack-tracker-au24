@@ -23,7 +23,7 @@ Run this command to get a list of packs and their current information.
 
 A list of packs is returned in the response.  
 
-```JSON
+```json
 [
     {
         "id": 1,
@@ -112,7 +112,7 @@ curl --location --request PUT 'http://localhost:3000/packs/1' \
 
 The response is returned. You can see that your wolf is now a member of the pack. 
 
-```JSON
+```json
 
 {
     "id": 1,

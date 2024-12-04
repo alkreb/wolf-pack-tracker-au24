@@ -17,7 +17,7 @@ Wolf prey information.
 
 Sample`prey` resource
 
-```JSON
+```json
 
     {
       "id": 1,

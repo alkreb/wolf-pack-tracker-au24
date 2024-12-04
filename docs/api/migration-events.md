@@ -17,7 +17,7 @@ Wolf migration event information.
 
 Sample `migration_events` resource
 
-```JSON
+```json
 
 {
         "event_id": "ME001",
