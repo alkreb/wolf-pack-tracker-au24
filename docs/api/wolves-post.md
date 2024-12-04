@@ -43,7 +43,7 @@ Content-Type: application/json
 
 
 ### Example JSON request body
-```JSON
+```json
 {
     "id": 7,
     "wolf_id": "W007",
@@ -86,7 +86,7 @@ Content-Type: application/json
 
 ### Example JSON return body
 
-```JSON
+```json
 
     "id": 7,
     "wolf_id": "W007",

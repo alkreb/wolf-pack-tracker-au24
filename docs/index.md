@@ -7,6 +7,7 @@ imaginary wolf tracking service._
 # Wolf Pack Tracker service API
 
 Scientists, conservationists, and naturalists can track information about wolves and wolf packs. 
+
 The service includes a complete set of wolf tracking data including their habitat, migration patterns, health, and prey.
 
 ## Getting started

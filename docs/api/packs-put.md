@@ -44,7 +44,7 @@ Content-Type: application/json
 
 ### Example JSON request body
 
-```JSON
+```json
 {
     "id": 2,
     "pack_id": "P002",
@@ -84,7 +84,7 @@ Content-Type: application/json
 
 ### Example JSON return body
 
-```JSON
+```json
 {
     "id": 1,
     "pack_id": "P002",

@@ -15,7 +15,7 @@ Review the [getting started page](../getting-started.md) to get your system set 
 
 ## Step 2: Add your first wolf
 
-To add a wolf run the following command. 
+To add a wolf, run the following command. 
 
 ```shell
 curl --location 'http://localhost:3000/wolves' \
@@ -48,7 +48,7 @@ curl --location 'http://localhost:3000/wolves' \
 
 The response is returned.  Make note of the id. The id may be different in your response.
 
-```JSON
+```json
 
  {
     "wolf_id": "W003",

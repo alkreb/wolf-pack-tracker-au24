@@ -10,7 +10,7 @@ You need about 15 minutes to complete this tutorial.
 
 ## Step 1: Set up your environment and start the service
 
-Review the [getting started page](../getting-started.md) to get your system set up and the start the service.
+Review the [getting started page](../getting-started.md) to get your system set up and start the service.
 
 ## Step 2: Retrieve the packs
 
@@ -23,7 +23,7 @@ Run this command to get a list of packs and their current information.
 
 A list of packs is returned in the response.  
 
-```JSON
+```json
 [
     {
         "id": 1,
@@ -112,7 +112,7 @@ curl --location --request PUT 'http://localhost:3000/packs/1' \
 
 The response is returned. You can see that your wolf is now a member of the pack. 
 
-```JSON
+```json
 
 {
     "id": 1,

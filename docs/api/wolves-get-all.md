@@ -48,7 +48,7 @@ None
 
 ### Example JSON return body
 
-```JSON
+```json
 [
     {
         "wolf_id": "W001",
