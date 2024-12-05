@@ -17,7 +17,7 @@ Wolf habitat information.
 
 Sample`habitats` resource
 
-```JSON
+```json
 
 {
         "habitat_id": "H001",

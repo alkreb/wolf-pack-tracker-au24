@@ -17,7 +17,7 @@ Location, migration, and members information for packs tracked by the service.
 
 Sample `packs` resource
 
-```JSON
+```json
 
 {
         "pack_id": "P001",
