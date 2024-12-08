@@ -12,7 +12,7 @@ It will take about 30 minutes to complete the system setup.
 
 ## Prerequisites to use the Wolf Pack Tracker API
 
-To follow the tutorials and test the **Wolf Pack Tracker** make sure you have completed the following:  
+To follow the tutorials and test the **Wolf Pack Tracker API** make sure you have completed the following:  
 
 1. Create a [GitHub account](https://github.com) if you don't have one already. 
 1. Make sure your system (PC, Mac, or Linux) is running a current or supported operating system version.

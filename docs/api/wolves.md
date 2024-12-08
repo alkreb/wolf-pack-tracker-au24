@@ -11,7 +11,7 @@ Base endpoint:
 {base_url}/wolves
 ```
 
-Location, migration and health information for wolves tracked by the service. 
+Location, migration, and health information for wolves tracked by the service. 
 
 ## Resource properties
 

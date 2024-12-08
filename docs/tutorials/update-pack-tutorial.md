@@ -10,7 +10,7 @@ You need about 15 minutes to complete this tutorial.
 
 ## Step 1: Set up your environment and start the service
 
-Review the [getting started page](../getting-started.md) to get your system set up and the start the service.
+Review the [getting started page](../getting-started.md) to get your system set up and start the service.
 
 ## Step 2: Retrieve the packs
 
