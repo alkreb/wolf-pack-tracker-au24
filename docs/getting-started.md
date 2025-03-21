@@ -41,7 +41,7 @@ To test that you can run the service:
 
     If everything is correctly installed, the service starts and displays the URL of the service: `http://localhost:3000`.
 
-    > [!NOTE]  
+    > [NOTE]  
     > The documentation references `{base_url}` throughout. This value depends
     on the installation of the service. When you are running the service locally for testing, the `{base_url}` is typically  `http://localhost:3000`.
 
@@ -55,7 +55,7 @@ To test that you can run the service:
 
     ```json
      [
-            "wolf_id": "W001",
+        "wolf_id": "W001",
         "name": "Alpha",
         "location": {
         "latitude": 45.123,
@@ -75,7 +75,7 @@ To test that you can run the service:
         }
         ],
         "health_status": "healthy"
-    },
+     },
         {
             "wolf_id": "W002",
             "name": "Beta",
