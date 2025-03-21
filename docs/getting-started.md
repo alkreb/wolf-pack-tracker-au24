@@ -53,30 +53,56 @@ To test that you can run the service:
 
 3. If the service is running correctly, a list of wolves is returned.
 
-    ```json
-     [
-        "wolf_id": "W001",
-        "name": "Alpha",
-        "location": {
+```json
+[
+  {
+    "id": "1",
+    "wolf_id": "W001",
+    "name": "Alpha",
+    "location": {
+      "latitude": 45.123,
+      "longitude": -112.456
+    },
+    "pack_id": "P001",
+    "migration_history": [
+      {
+        "date": "2024-01-15",
         "latitude": 45.123,
         "longitude": -112.456
-        },
-        "pack_id": "P001",
-        "migration_history": [
-        {
-            "date": "2024-01-15",
-            "latitude": 45.123,
-            "longitude": -112.456
-        },
-        {
-            "date": "2024-01-20",
-            "latitude": 46.789,
-            "longitude": -113.987
-        }
-        ],
-        "health_status": "healthy"
-    ...
-    ```
+      },
+      {
+        "date": "2024-01-20",
+        "latitude": 46.789,
+        "longitude": -113.987
+      }
+    ],
+    "health_status": "healthy"
+  },
+  {
+    "id": "2",
+    "wolf_id": "W002",
+    "name": "Beta",
+    "location": {
+      "latitude": 46.123,
+      "longitude": -111.456
+    },
+    "pack_id": "P001",
+    "migration_history": [
+      {
+        "date": "2024-01-15",
+        "latitude": 46.123,
+        "longitude": -111.456
+      },
+      {
+        "date": "2024-02-01",
+        "latitude": 47.789,
+        "longitude": -114.987
+      }
+    ],
+    "health_status": "injured"
+  }
+]  
+```     
 
 ### Troubleshooting the first request
 
